@@ -18,7 +18,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/EffectsContainer">
 
-    <com.android.gallery3d.photoeditor.actions.ColorTemperatureAction style="@style/Effect">
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.ColorTemperatureAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -27,8 +27,8 @@
             android:id="@+id/effect_label"
             android:text="@string/temperature"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.ColorTemperatureAction>
-    <com.android.gallery3d.photoeditor.actions.SaturationAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.ColorTemperatureAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.SaturationAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -37,8 +37,8 @@
             android:id="@+id/effect_label"
             android:text="@string/saturation"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.SaturationAction>
-    <com.android.gallery3d.photoeditor.actions.GrayscaleAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.SaturationAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.GrayscaleAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -47,8 +47,8 @@
             android:id="@+id/effect_label"
             android:text="@string/grayscale"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.GrayscaleAction>
-    <com.android.gallery3d.photoeditor.actions.SepiaAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.GrayscaleAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.SepiaAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -57,8 +57,8 @@
             android:id="@+id/effect_label"
             android:text="@string/sepia"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.SepiaAction>
-    <com.android.gallery3d.photoeditor.actions.NegativeAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.SepiaAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.NegativeAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -67,8 +67,8 @@
             android:id="@+id/effect_label"
             android:text="@string/negative"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.NegativeAction>
-    <com.android.gallery3d.photoeditor.actions.TintAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.NegativeAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.TintAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -77,8 +77,8 @@
             android:id="@+id/effect_label"
             android:text="@string/tint"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.TintAction>
-    <com.android.gallery3d.photoeditor.actions.DuotoneAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.TintAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.DuotoneAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -87,8 +87,8 @@
             android:id="@+id/effect_label"
             android:text="@string/duotone"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.DuotoneAction>
-    <com.android.gallery3d.photoeditor.actions.DoodleAction style="@style/Effect"
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.DuotoneAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.DoodleAction style="@style/Effect"
         android:tag="@string/doodle_tooltip">
         <ImageButton
             android:id="@+id/effect_button"
@@ -98,6 +98,6 @@
             android:id="@+id/effect_label"
             android:text="@string/doodle"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.DoodleAction>
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.DoodleAction>
 
 </LinearLayout>

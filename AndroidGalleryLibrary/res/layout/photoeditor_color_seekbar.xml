@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.android.gallery3d.photoeditor.actions.ColorSeekBar
+<com.georgiecasey.androidgallerylibrary.photoeditor.actions.ColorSeekBar
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="@dimen/seekbar_width"
     android:layout_height="@dimen/seekbar_height"

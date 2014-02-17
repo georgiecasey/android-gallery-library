@@ -17,7 +17,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <view class="com.android.gallery3d.ui.GLRootView"
+    <view class="com.georgiecasey.androidgallerylibrary.ui.GLRootView"
             android:id="@+id/gl_root_view"
             android:background="@null"
             android:layout_width="match_parent"

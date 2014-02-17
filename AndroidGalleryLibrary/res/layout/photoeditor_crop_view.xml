@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.android.gallery3d.photoeditor.actions.CropView
+<com.georgiecasey.androidgallerylibrary.photoeditor.actions.CropView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fullscreen_effect_tool"
     style="@style/FullscreenToolView"/>

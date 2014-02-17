@@ -18,7 +18,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/EffectsContainer">
 
-    <com.android.gallery3d.photoeditor.actions.CropAction style="@style/Effect"
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.CropAction style="@style/Effect"
         android:tag="@string/crop_tooltip">
         <ImageButton
             android:id="@+id/effect_button"
@@ -28,8 +28,8 @@
             android:id="@+id/effect_label"
             android:text="@string/crop"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.CropAction>
-    <com.android.gallery3d.photoeditor.actions.RedEyeAction style="@style/Effect"
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.CropAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.RedEyeAction style="@style/Effect"
         android:tag="@string/redeye_tooltip">
         <ImageButton
             android:id="@+id/effect_button"
@@ -39,8 +39,8 @@
             android:id="@+id/effect_label"
             android:text="@string/redeye"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.RedEyeAction>
-    <com.android.gallery3d.photoeditor.actions.FaceliftAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.RedEyeAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.FaceliftAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -49,8 +49,8 @@
             android:id="@+id/effect_label"
             android:text="@string/facelift"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.FaceliftAction>
-    <com.android.gallery3d.photoeditor.actions.FaceTanAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.FaceliftAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.FaceTanAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -59,8 +59,8 @@
             android:id="@+id/effect_label"
             android:text="@string/facetan"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.FaceTanAction>
-    <com.android.gallery3d.photoeditor.actions.StraightenAction style="@style/Effect"
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.FaceTanAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.StraightenAction style="@style/Effect"
         android:tag="@string/straighten_tooltip">
         <ImageButton
             android:id="@+id/effect_button"
@@ -70,8 +70,8 @@
             android:id="@+id/effect_label"
             android:text="@string/straighten"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.StraightenAction>
-    <com.android.gallery3d.photoeditor.actions.RotateAction style="@style/Effect"
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.StraightenAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.RotateAction style="@style/Effect"
         android:tag="@string/rotate_tooltip">
         <ImageButton
             android:id="@+id/effect_button"
@@ -81,8 +81,8 @@
             android:id="@+id/effect_label"
             android:text="@string/rotate"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.RotateAction>
-    <com.android.gallery3d.photoeditor.actions.FlipAction style="@style/Effect"
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.RotateAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.FlipAction style="@style/Effect"
         android:tag="@string/flip_tooltip">
         <ImageButton
             android:id="@+id/effect_button"
@@ -92,8 +92,8 @@
             android:id="@+id/effect_label"
             android:text="@string/flip"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.FlipAction>
-    <com.android.gallery3d.photoeditor.actions.SharpenAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.FlipAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.SharpenAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -102,6 +102,6 @@
             android:id="@+id/effect_label"
             android:text="@string/sharpen"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.SharpenAction>
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.SharpenAction>
 
 </LinearLayout>

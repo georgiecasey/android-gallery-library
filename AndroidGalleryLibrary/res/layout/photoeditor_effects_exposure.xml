@@ -18,7 +18,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/EffectsContainer">
 
-    <com.android.gallery3d.photoeditor.actions.FillLightAction style="@style/Effect">
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.FillLightAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -27,8 +27,8 @@
             android:id="@+id/effect_label"
             android:text="@string/filllight"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.FillLightAction>
-    <com.android.gallery3d.photoeditor.actions.HighlightAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.FillLightAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.HighlightAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -37,8 +37,8 @@
             android:id="@+id/effect_label"
             android:text="@string/highlight"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.HighlightAction>
-    <com.android.gallery3d.photoeditor.actions.ShadowAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.HighlightAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.ShadowAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -47,8 +47,8 @@
             android:id="@+id/effect_label"
             android:text="@string/shadow"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.ShadowAction>
-    <com.android.gallery3d.photoeditor.actions.AutoFixAction style="@style/Effect">
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.ShadowAction>
+    <com.georgiecasey.androidgallerylibrary.photoeditor.actions.AutoFixAction style="@style/Effect">
         <ImageButton
             android:id="@+id/effect_button"
             style="@style/EffectIcon"
@@ -57,6 +57,6 @@
             android:id="@+id/effect_label"
             android:text="@string/autofix"
             style="@style/EffectLabel"/>
-    </com.android.gallery3d.photoeditor.actions.AutoFixAction>
+    </com.georgiecasey.androidgallerylibrary.photoeditor.actions.AutoFixAction>
 
 </LinearLayout>

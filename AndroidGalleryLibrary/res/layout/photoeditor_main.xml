@@ -14,30 +14,30 @@
      limitations under the License.
 -->
 
-<com.android.gallery3d.photoeditor.Toolbar
+<com.georgiecasey.androidgallerylibrary.photoeditor.Toolbar
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/toolbar"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
 
-    <com.android.gallery3d.photoeditor.PhotoView
+    <com.georgiecasey.androidgallerylibrary.photoeditor.PhotoView
         android:id="@+id/photo_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"/>
 
-    <com.android.gallery3d.photoeditor.EffectsBar
+    <com.georgiecasey.androidgallerylibrary.photoeditor.EffectsBar
         android:id="@+id/effects_bar"
         style="@style/EffectsBar">
 
-        <com.android.gallery3d.photoeditor.EffectsMenu
+        <com.georgiecasey.androidgallerylibrary.photoeditor.EffectsMenu
             android:id="@+id/effects_menu"
             style="@style/ActionBarOuter"/>
 
-    </com.android.gallery3d.photoeditor.EffectsBar>
+    </com.georgiecasey.androidgallerylibrary.photoeditor.EffectsBar>
 
-    <com.android.gallery3d.photoeditor.ActionBar
+    <com.georgiecasey.androidgallerylibrary.photoeditor.ActionBar
         android:id="@+id/action_bar"
         style="@style/ActionBarOuter"
         android:layout_alignParentTop="true"/>
 
-</com.android.gallery3d.photoeditor.Toolbar>
+</com.georgiecasey.androidgallerylibrary.photoeditor.Toolbar>
